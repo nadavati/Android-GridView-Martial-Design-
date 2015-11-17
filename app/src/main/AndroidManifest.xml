@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="in.ideal.user.activity" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/MyMaterialTheme" >
+        <activity
+            android:name=".splashActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:label="Ideal" >
+        </activity>
+        <activity
+            android:name=".DonorsActivity"
+            android:screenOrientation="portrait"
+            android:label="Blood Donors" >
+            </activity>
+        <activity
+            android:name=".AboutActivity"
+            android:screenOrientation="portrait"
+            android:label="About" >
+        </activity>
+        <activity
+            android:name=".BloodRequestActivity"
+            android:screenOrientation="portrait"
+            android:label="Blood Request" >
+        </activity>
+        <activity
+            android:name=".TeamActivity"
+            android:screenOrientation="portrait"
+            android:label="Team" >
+        </activity>
+        <activity
+            android:name=".BloodDonationFactsActivity"
+            android:screenOrientation="portrait"
+            android:label="Blood Donation Facts" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,50 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:id="@+id/contentAbout"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/container_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar" />
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/facts"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_gravity="center_horizontal" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:scrollbars="none"
+            android:layout_height="wrap_content"
+            android:text="1.Donor means?\nDonor means a person who voluntarily donates blood after he has been declared fit after a medical examination, for donating blood, on fulfilling the criteria given hereinafter, without accepting in return any consideration in cash or kind from any source, but does not include a professional or a paid donor.
+                          \n\n2.What is the normal safe interval between blood donations?\nNormally it is about 56 days for whole blood donation. In men the recommended time period is 3 months and in women 4 months.
+                          \n\n3.Is there any upper age limit to blood donation?\nThe recommended age limit is 55 years. But a fit and healthy person can donate up to even 60 years or above depending on the requirement.
+                        \n\n4.How much blood is removed during donation and how soon does it get replaced in the body?\nThe amount of blood withdrawn varies from 350ml- 450ml. It normally takes 24hrs for the blood volume to be replaced. And red cells get replaced in about 6 weeks.
+                        \n\n5.Why should I donate Blood?\nBlood is required everyday by hospitals. There are about 80 million units of blood that are donated each year by voluntary and paid donors. However there is still a shortage of blood more so in developing counties. Only 38% of the total blood collected is from the developing countries, where a staggering 82% of the world's population live. Several of these countries are dependent on paid donors"
+            android:textColor="#333333"
+            android:layout_marginLeft="5dp"
+            android:padding="10dp"
+            android:textSize="18sp" />
+    </ScrollView>
+
+</LinearLayout>

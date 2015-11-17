@@ -1,0 +1,39 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:id="@+id/contentAbout"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/container_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar" />
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:scrollbars="none"
+        android:layout_height="wrap_content"
+        android:text="IDEAL is an organization that has been setup by the inspiration of the work by the WISEMEN FOUNDATION for the poor, orphaned children and elderly people and the destitute.\n\nFor time being we ‘IDEAL’ is solely extending its support to the wisemen foundation.
+\n\nAs now Ideal has started extension of its services to meet the needs at least to some extent for people those who are in emergency need of blood, without any association with so called blood banks, but by the donor, our team members directly in person.
+\n\nAs an initiation of this, we ‘IDEAL’ launching this app providing with the details of our team members cum blood donors.\n\nThe individuals even, those who wish to encourage us in this work can join us and become “IDEAL BLOOD DONOR”
+\n\nEvery individual can become a hero of others lives, and its possible not only by acting on screen but also by donating BLOOD the most valuable liquid in this universe next to water, in our view.
+Let us all become stubborn together to save the lives of others.\n\nSo, we ‘Ideal’ hope; we ‘you+Ideal’ can do together."
+        android:textColor="#333333"
+        android:layout_marginLeft="5dp"
+        android:padding="10dp"
+        android:textSize="18sp" />
+</ScrollView>
+
+</LinearLayout>

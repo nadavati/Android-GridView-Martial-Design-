@@ -1,0 +1,103 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:id="@+id/contentAbout"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/container_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView0"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:text="We are doing this just out of humanity and not for the sake of money or any selfish use."
+        android:textColor="#333333"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+       android:gravity="center"
+        android:padding="10dp"
+        android:textSize="18sp" />
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:scrollbars="none"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:text="Jyosthna C\nM-tech at RGMCET"
+            android:textColor="#333333"
+            android:layout_marginLeft="5dp"
+            android:padding="10dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:text="Sravan Reddy A\nFinance Executive at Midtown Structures"
+            android:textColor="#333333"
+            android:layout_marginLeft="5dp"
+            android:padding="10dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:text="Sateesh\nPlanning officer at CAMEL NGO"
+            android:textColor="#333333"
+            android:layout_marginLeft="5dp"
+            android:padding="10dp"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:text="Siva Nadavati\nSoftware Engineer at Doctors' Circle"
+            android:textColor="#333333"
+            android:layout_marginLeft="5dp"
+            android:padding="10dp"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:text="Uday Reddy K \nFinance Executive at 3C Constultants"
+            android:textColor="#333333"
+            android:layout_marginLeft="5dp"
+            android:padding="10dp"
+            android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

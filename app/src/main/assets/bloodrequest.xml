@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<userNames>
+	<username>
+		<name>Siva</name>
+		<bloodGroup>B+</bloodGroup>
+		<phoneNumber>8951283077</phoneNumber>
+		<area>Ramagondanahalli</area>
+		<location>Bangalore</location>
+	</username>
+	<username>
+		<name>Udaya Kiran N</name>
+		<bloodGroup>A+</bloodGroup>
+		<phoneNumber>9886044162</phoneNumber>
+		<area>Mallaswaram</area>
+		<location>Bangalore</location>
+	</username>
+	<username>
+		<name>Thilak</name>
+		<bloodGroup>B+</bloodGroup>
+		<phoneNumber>9964660933</phoneNumber>
+		<area>K R Puram</area>
+		<location>Bangalore</location>
+	</username>
+</userNames>
